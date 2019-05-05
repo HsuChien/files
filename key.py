@@ -1,7 +1,7 @@
 ﻿import time
 def x_key():
     x_circle=42
-    x=(time.time()-1556780833.4091797)/60/60/24
+    x=(time.time()-1557040166.4091797)/60/60/24
     if x<=x_circle:
         print(x_circle-x,'欢迎使用')
         return 1
